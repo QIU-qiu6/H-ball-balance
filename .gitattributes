@@ -1,0 +1,10 @@
+* -text
+*.md text eol=lf
+*.py text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.cvimodel binary
+*.png binary
+
+# Keep original embedded source encodings and line endings.
+# Some legacy C files contain non-UTF-8 comments.

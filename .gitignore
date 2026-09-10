@@ -1,0 +1,43 @@
+# Keil build output and user-specific settings
+build/
+build_*/
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.elf
+*.map
+*.lnp
+*.lst
+*.build_log.htm
+*.htm
+*.uvoptx
+*.uvguix.*
+DebugConfig/
+*.hex
+!release/*.hex
+
+# Python / MaixVision generated files
+__pycache__/
+*.py[cod]
+dist/
+tmp/
+*.log
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+
+# Archives and recordings are distributed separately
+*.zip
+*.rar
+*.7z
+*.mp4

@@ -1,0 +1,12 @@
+id: ball_297541_stable_uart
+name: ball_297541_stable_uart
+name[zh]: 钢珠297541稳定串口版
+version: 1.3.1
+author: aine
+icon: app.png
+desc: Stable fixed-window MaixHub 297541 YOLOv5 steel ball tracker with UART1
+files:
+  - app.png
+  - model_297541.cvimodel
+  - model_297541.mud
+  - main.py
